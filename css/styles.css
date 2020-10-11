@@ -5,28 +5,32 @@
 /* цвет контактов rgba(255, 255, 255, 0.6) */
 /* цвет фона героя #2F303A */
 /* цвет вторичного фона #F5F4FA */
-ul
+:root
 {
-    list-style: none;
+--primayry-text-color: #212121;
+--title-text-color: #757575;
+--accent-color: #2196f3;
 }
-a
-{
-    text-decoration: none;
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
 }
 /* styl nav */
-.logo
-{
-    color:#212121;
+.logo {
+  color:var(--primayry-text-color);
 }
 /* .logo:hover,
 .logo:focus
 {
     color: #2196F3;
 } */
-.logo-web
-{
-    color: #2196F3;
-/* }
+.logo-web {
+  color:var(--accent-color);
+}
+/* 
 .logo-web:hover,
 .logo-web:focus
 {
@@ -38,23 +42,50 @@ a
     color: #2196F3;
 } */
 
-.site-nav .link
-{
-    color: #212121;
+.site-nav .link {
+  color: var(--primayry-text-color);
 }
 .site-nav .link:hover,
-.site-nav .link:focus
-{
-    color: #2196F3;
+.site-nav .link:focus {
+  color: var(--accent-color);
 }
 
-.contacts-nav a
-{
-    color: #757575;
+.contacts-nav a {
+  color:var(--title-text-color);
 }
 .contacts-nav .contacts:hover,
-.contacts-nav .contacts:focus
-{
-    color: #2196F3;
+.contacts-nav .contacts:focus {
+  color: var(--accent-color);
 }
 
+/* hero */
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  color: #ffffff;
+}
+
+/* features */
+.title {
+  color: var(--primayry-text-color);
+}
+.title-list {
+  color: var(--title-text-color);
+}
+
+/* work */
+.work
+{
+    color:var(--primayry-text-color);
+}
+
+/* team */
+.team .team-list
+{
+    color: var(--primayry-text-color);
+}
+.position
+{
+    color: var(--title-text-color);
+}
