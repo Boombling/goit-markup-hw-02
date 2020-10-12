@@ -128,3 +128,29 @@ footer>.logo
 {
   color: var(--accent-color);
 }
+
+
+/* Portfolio.html */
+/* Tabs list */
+
+.tabs-link
+{
+  color: var(--primayry-text-color);
+  background-color: #F5F4FA;
+}
+.tabs-link:hover,
+.tabs-link:focus
+{
+  color: var(--primayry-white-color);
+  background-color: var(--accent-color);
+}
+
+/* work list */
+.work-list
+{
+  color: var(--primayry-text-color);
+}
+.work-info
+{
+  color: var(--title-text-color);
+}
