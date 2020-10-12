@@ -76,6 +76,12 @@ a {
     color: var(--primayry-white-color);
     background-color: var(--accent-color);
 }
+.button:hover,
+.button:focus
+{
+  color: var(--accent-color);
+  background-color: var(--primayry-white-color);
+}
 
 /* features */
 .title {
