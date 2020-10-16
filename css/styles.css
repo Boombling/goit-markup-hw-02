@@ -47,17 +47,6 @@ button
 .logo-web {
   color:var(--accent-color);
 }
-/* 
-.logo-web:hover,
-.logo-web:focus
-{
-    color:#212121;
-} */
-/* .logo-studio:hover,
-.logo-studio:focus
-{
-    color: #2196F3;
-} */
 
 .site-nav .link {
   color: var(--primayry-text-color);
